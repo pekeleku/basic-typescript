@@ -26,3 +26,15 @@ type Tambah = (val1: number, val2: number) => number;
 const Add: Tambah = (val1: number, val2: number): number => {
   return val1 + val2;
 };
+
+// default parameter
+const fullName = (first: string, last: string = "aluman"): string => {
+  return first + " " + last;
+};
+console.log(fullName("walter", "tabesi"));
+
+// optional parameter
+const getla = (val1: string, val2?: string): string => {
+  return val1 + val2;
+};
+console.log(getla("a", "a"));

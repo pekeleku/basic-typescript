@@ -13,3 +13,8 @@ isMarried = false;
 let heroes = "groot";
 heroes = 32;
 heroes = {} || [] || true;
+// union type
+// bisa taro 2 tipe data di 1 variable
+let phone;
+phone = 2300320;
+phone = "324324";
